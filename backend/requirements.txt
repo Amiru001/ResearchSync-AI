@@ -1,0 +1,35 @@
+
+# Web Framework and API
+fastapi==0.139.2
+uvicorn==0.51.0
+
+# Database
+pymongo==4.17.0
+
+# Environment Configuration
+python-dotenv==1.2.2
+
+# Authentication and Security
+python-jose==3.5.0
+passlib==1.7.4
+bcrypt==4.0.1
+
+# Data Validation
+pydantic==2.13.4
+email-validator==2.3.0
+python-multipart==0.0.32
+
+# Machine Learning and NLP
+torch==2.13.0
+transformers==5.14.1
+sentence-transformers==5.6.1
+scikit-learn==1.9.0
+joblib==1.5.3
+
+# Data Processing
+numpy==2.5.1
+pandas==3.0.5
+
+# External API and PDF Processing
+requests==2.34.2
+PyMuPDF==1.28.2

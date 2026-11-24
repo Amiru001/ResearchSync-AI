@@ -1,0 +1,145 @@
+@import "tailwindcss";
+
+/* 
+   Hero Animations
+*/
+
+@keyframes float {
+  0%,100%{
+    transform: translateY(0px);
+  }
+
+  50%{
+    transform: translateY(-14px);
+  }
+}
+
+.animate-float{
+  animation: float 5s ease-in-out infinite;
+}
+
+/* Brain Glow */
+
+.brain-glow{
+  animation: pulseGlow 2.6s ease-in-out infinite;
+}
+
+@keyframes pulseGlow{
+
+  0%,100%{
+    opacity:.55;
+  }
+
+  50%{
+    opacity:1;
+  }
+
+}
+
+/* Signal Dots */
+
+.signal-dot{
+
+  position:absolute;
+
+  width:6px;
+
+  height:6px;
+
+  border-radius:50%;
+
+  background:#7FB0FF;
+
+  box-shadow:0 0 10px 2px rgba(127,176,255,.9);
+
+}
+
+/* Dot 1 */
+
+.s1{
+  animation: travel1 4s linear infinite;
+}
+
+@keyframes travel1{
+
+  0%{
+    top:8%;
+    left:6%;
+  }
+
+  25%{
+    top:8%;
+    left:88%;
+  }
+
+  50%{
+    top:70%;
+    left:88%;
+  }
+
+  75%{
+    top:70%;
+    left:6%;
+  }
+
+  100%{
+    top:8%;
+    left:6%;
+  }
+
+}
+
+/* Dot 2 */
+
+.s2{
+  animation: travel2 5.5s linear infinite;
+}
+
+@keyframes travel2{
+
+  0%{
+    top:88%;
+    left:14%;
+  }
+
+  30%{
+    top:20%;
+    left:14%;
+  }
+
+  60%{
+    top:20%;
+    left:78%;
+  }
+
+  100%{
+    top:88%;
+    left:78%;
+  }
+
+}
+
+/* Dot 3 */
+
+.s3{
+  animation: travel3 4.6s linear infinite;
+}
+
+@keyframes travel3{
+
+  0%{
+    top:40%;
+    left:92%;
+  }
+
+  50%{
+    top:5%;
+    left:50%;
+  }
+
+  100%{
+    top:40%;
+    left:92%;
+  }
+
+}

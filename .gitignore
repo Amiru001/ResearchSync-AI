@@ -1,0 +1,69 @@
+
+# =================================
+# Environment variables and secrets
+# =================================
+.env
+.env.*
+!.env.example
+
+# =================================
+# Frontend dependencies and builds
+# =================================
+node_modules/
+dist/
+dist-ssr/
+coverage/
+.vite/
+
+# =================================
+# Python virtual environments
+# =================================
+venv/
+.venv/
+ENV/
+
+# =================================
+# Python cache and temporary files
+# =================================
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =================================
+# Logs and operating system files
+# =================================
+*.log
+.DS_Store
+Thumbs.db
+
+# =================================
+# Private academic reference material
+# =================================
+/backend/reference_documents/
+/backend/open_access_papers/
+
+# =================================
+# Private supervisor information
+# =================================
+/backend/ai/supervisors_dataset_research_domains_standardized.csv
+/backend/ai/supervisor_embeddings.npy
+
+# =================================
+# Large machine-learning model files
+# =================================
+*.safetensors
+/backend/ai/research_topic_classifier/training_args.bin
+
+# =================================
+# Scripts containing default credentials
+# =================================
+/backend/create_admin.py
+/backend/create_supervisor.py
+
+# =================================
+# Private plagiarism test data
+# =================================
+/backend/test_plagiarism.py
+/backend/test_plagiarism_api_data.py
